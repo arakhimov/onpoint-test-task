@@ -1,0 +1,22 @@
+.HomePage {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  height: 768px;
+  background-image: url('../../images/HomePage_background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.HomePage__header {
+  font-size: 3.125rem;
+  text-align: start;
+  color: #0d319c;
+  padding-top: 13.5%;
+  font-weight: 400;
+  margin: 0;
+  margin-left: 8%;
+  width: 80%;
+}

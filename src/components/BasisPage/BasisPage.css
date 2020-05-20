@@ -1,0 +1,23 @@
+.BasisPage {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  height: 768px;
+  background-image: url('../../images/BasisPage_background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.BasisPage__header {
+  font-size: 3.125rem;
+  text-align: center;
+  color: #fff;
+  padding-top: 25%;
+  font-weight: 400;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

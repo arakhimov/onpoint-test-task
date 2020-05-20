@@ -1,0 +1,6 @@
+.PaginationRange {
+  position: absolute;
+  bottom: 10%;
+  left: 16%;
+  z-index: 2;
+}

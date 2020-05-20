@@ -1,0 +1,29 @@
+.ChainPage {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3072px;
+  height: 768px;
+  background-image: url('../../images/ChainPage_background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ChainPage__header {
+  font-size: 3.125rem;
+  text-align: center;
+  color: #fff;
+  padding-top: 25%;
+  font-weight: 400;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.ChainPage__slider {
+  display: flex;
+  height: 100%;
+}
