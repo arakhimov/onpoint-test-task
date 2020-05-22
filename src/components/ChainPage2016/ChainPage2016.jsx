@@ -81,7 +81,7 @@ export const ChainPage2016 = () => {
             <span className="ChainPage2016__description ChainPage2016__description_left">
                 <span className="ChainPage2016__description-count">2<br /></span>&darr;инкретинового эффекта
             </span>
-            <span className="ChainPage2016__description ChainPage2016__description_right">
+            <span className="ChainPage2016__description ChainPage2016__description_right ChainPage2016__description_center-column">
               <span className="ChainPage2016__description-count">3<br /></span> дефект &alpha;-клеток
               <span className="ChainPage2016__text ChainPage2016__text_small ChainPage2016__text_center-column">&uarr;глюкагон</span>
             </span>

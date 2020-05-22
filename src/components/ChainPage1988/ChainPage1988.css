@@ -4,6 +4,7 @@
 }
 
 .ChainPage1988__header {
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
   font-size: 1.875rem;
   color: #fff;
   font-weight: 400;
@@ -25,6 +26,7 @@
   align-items: center;
   color: #fff;
   font-size: 1.25rem;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   position: relative;
 }
 .ChainPage1988__wrapper {
@@ -41,19 +43,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: inherit;
+  font-size: 1.25rem;
 }
 
 .ChainPage1988__description {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .ChainPage1988__organ-container {
-  width: 96px;
+  width: 100px;
   height: 175px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 

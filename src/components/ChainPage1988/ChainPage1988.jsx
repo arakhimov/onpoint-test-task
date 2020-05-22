@@ -36,7 +36,7 @@ export const ChainPage1988 = () => {
           </div>
           <span className="ChainPage1988__text">Гипергликемия</span>
           <div className="ChainPage1988__organ-container">
-            <span className="ChainPage1988__description"><span className="ChainPage1988__description-count">3</span> Печень</span>
+            <span className="ChainPage1988__description"><span className="ChainPage1988__description-count">3</span><br />Печень</span>
             <Liver size = { organIconSize } />
           </div>
           <img src = { chain1988_2 } alt="" className="ChainPage1988__image-arrow ChainPage1988__image-arrow_first"/>

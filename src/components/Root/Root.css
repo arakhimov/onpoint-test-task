@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  font-style:  normal;
+  font-weight: 400;
+  src: url('../../fonts/GothamPro.woff') format("woff");
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style:  normal;
+  font-weight: 400;
+  src: url('../../fonts/Lato-Regular.ttf') format("truetype");
+}
+
 .Root {
   position: relative;
   width: 1024px;
@@ -5,4 +19,5 @@
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+  cursor: url('../../images/cursorRoot.png'), auto;
 }

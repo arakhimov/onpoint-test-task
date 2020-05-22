@@ -18,14 +18,19 @@
   width: 42px;
   border-radius: 3px;
   background: url('../../images/cursor.png');
-  margin-top: -15px;
+  margin-top: -20px;
+  margin-left: -3px;
+  position: relative;
+  z-index: 5;
+  cursor: url('../../images/cursorRoot.png'), auto;
 }
 
 .PaginationRange__input::-webkit-slider-runnable-track {
   height: 12px;
   background: #435063;
+  border-right: 5px solid #060e1f;
+  box-sizing: border-box;
 }
-
 
 .PaginationRange__date-wrapper {
   display: flex;
@@ -36,4 +41,15 @@
   color: #fff;
   padding-top: 4%;
   font-size: 1.25rem;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.PaginationRange__input-fill {
+  margin-right: -5px;
+  height: 12px;
+  background: #d1eaff;
+  position: absolute;
+  bottom: 79%;
+  padding-left: 5px;
+  box-sizing: border-box;
 }

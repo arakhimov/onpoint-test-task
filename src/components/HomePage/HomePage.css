@@ -11,6 +11,7 @@
 }
 
 .HomePage__header {
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
   font-size: 3.125rem;
   text-align: start;
   color: #0d319c;
@@ -174,6 +175,7 @@
   top: -200%;
   width: 200px;
   content: 'Гипогликемия';
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .HomePage__animation-circle_second::after {
@@ -182,6 +184,7 @@
   top: -320%;
   width: 200px;
   content: 'Осложнения СД';
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .HomePage__animation-circle_third::after {
@@ -190,6 +193,7 @@
   top: -320%;
   width: 200px;
   content: 'СС риски';
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .HomePage__animation-circle_fourth::after {
@@ -198,6 +202,7 @@
   top: 20%;
   width: 200px;
   content: 'Цель по HbA1c';
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .HomePage__lithning {

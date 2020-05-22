@@ -4,6 +4,7 @@
 }
 
 .ChainPage2016__header {
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
   font-size: 1.875rem;
   color: #fff;
   font-weight: 400;
@@ -26,6 +27,7 @@
   color: #fff;
   font-size: 1.15rem;
   position: relative;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 .ChainPage2016__wrapper {
   display: flex;
@@ -78,7 +80,7 @@
   display: flex;
   justify-content: flex-end;
   font-size: 1rem;
-  padding-bottom: 16px;
+  padding-bottom: 20px;
 }
 
 .ChainPage2016__text_third-column {
@@ -91,13 +93,13 @@
 .ChainPage2016__text_center-column.ChainPage2016__text_small {
   justify-content: flex-start;
   padding-top: 25px;
-  padding-left: 5px;
+  padding-left: 2px;
 }
 
 .ChainPage2016__text_large {
   font-size: 1.56rem;
   font-weight: 500;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .ChainPage2016__organ-container_third-column {
@@ -120,19 +122,29 @@
   order: 2;
 }
 
+.ChainPage2016__description_center-column {
+  width: 210px;
+  margin-left: 15px;
+  padding-left: 5px;
+}
+
 .ChainPage2016__description_center {
-  text-align: start;
+  font-size: 1.56rem;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 5px;
 }
 
 .ChainPage2016__organ-container_center-column {
-  margin-right: 300px;
+  margin-right: 290px;
 }
 
 .ChainPage2016__text-container {
   width: 100%;
   display: flex;
-  padding-top: 40px;
+  padding-top: 50px;
   justify-content: space-between;
 }
 
@@ -233,41 +245,41 @@
 }
 
 .ChainPage2016__image-arrow_fifteenth {
-  top: 28%;
-  left: 50%;
+  top: 28.5%;
+  left: 50.5%;
 }
 
 .ChainPage2016__image-arrow_sixteenth {
   top: 28%;
-  left: 48%;
+  left: 48.5%;
 }
 
 .ChainPage2016__image-arrow_seventeenth {
   top: 28%;
-  left: 52%;
+  left: 52.5%;
 }
 
 .ChainPage2016__image-arrow_eighteenth {
-  top: 55%;
-  left: 52%;
+  top: 55.8%;
+  left: 52.5%;
 }
 
 .ChainPage2016__image-arrow_nineteenth {
-  top: 60%;
-  left: 48%;
+  top: 60.5%;
+  left: 48.5%;
 }
 
 .ChainPage2016__image-arrow_twenty {
-  top: 65.5%;
-  left: 52%;
+  top: 66.2%;
+  left: 52.5%;
 }
 
 .ChainPage2016__image-arrow_twentyOne {
   top: 80%;
-  left: 48.8%;
+  left: 49.3%;
 }
 
 .ChainPage2016__image-arrow_twentyTwo {
   top: 80%;
-  left: 51.2%;
+  left: 51.7%;
 }

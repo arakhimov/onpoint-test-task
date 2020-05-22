@@ -4,6 +4,7 @@
 }
 
 .ChainPage2009__header {
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
   font-size: 1.875rem;
   color: #fff;
   font-weight: 400;
@@ -27,6 +28,7 @@
   color: #fff;
   font-size: 1.25rem;
   position: relative;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 .ChainPage2009__wrapper {
   display: flex;

@@ -11,11 +11,13 @@
 }
 
 .ButtonDown__link {
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-decoration: none;
   color: #fff;
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
 }
 
 .ButtonDown__image {

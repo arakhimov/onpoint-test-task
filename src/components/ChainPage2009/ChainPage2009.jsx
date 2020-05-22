@@ -39,7 +39,7 @@ export const ChainPage2009 = () => {
           </div>
           <div className="ChainPage2009__noImage-wrapper">
             <span className="ChainPage2009__noImage-digit">3</span>
-            <span className="ChainPage__noImage-text ChainPage__noImage-text_right">Дефект &alpha;-клеток</span>
+            <span className="ChainPage__noImage-text ChainPage__noImage-text_right">Дефект<br />&alpha;-клеток</span>
           </div>
         </div>
         {/* второй ряд */}
