@@ -1,5 +1,204 @@
 .ChainPage2009 {
   width: 1024px;
   height: 100%;
-  background: lime;
+}
+
+.ChainPage2009__header {
+  font-size: 1.875rem;
+  color: #fff;
+  font-weight: 400;
+  margin: 0;
+  margin-left: 9%;
+  padding-top: 10%;
+  width: 50%;
+  overflow: hidden;
+}
+
+.ChainPage2009__chains {
+  padding-top: 10px;
+  width: 780px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 1.25rem;
+  position: relative;
+}
+.ChainPage2009__wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.ChainPage2009__text {
+  width: 388px;
+  height: 142px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: inherit;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.ChainPage2009__description {
+  text-align: center;
+}
+
+.ChainPage2009__organ-container {
+  width: 96px;
+  height: 143px;
+  display: flex;
+}
+
+.ChainPage2009__description-count {
+  font-size: 2.25rem;
+}
+
+.ChainPage2009__noImage-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.ChainPage__noImage-text {
+  width: 145px;
+}
+
+.ChainPage__noImage-text_left {
+  order: -1;
+  margin-right: 8px;
+  text-align: right;
+}
+
+.ChainPage__noImage-text_right {
+  margin-left: 8px;
+}
+
+.ChainPage2009__noImage-digit {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background: #363d5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.25rem;
+}
+
+.ChainPage2009__wrapper_bottom-row {
+  width: 388px;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 6px;
+}
+
+.ChainPage2009__description_bottom {
+  order: 2;
+}
+
+.ChainPage2009__organ-container_bottom {
+  width: 577px;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ChainPage2009__organ-container_right {
+  justify-content: start;
+  flex-grow: 2;
+  align-items: center;
+}
+
+.ChainPage2009__organ-container_left {
+  justify-content: flex-end;
+  flex-grow: 2;
+  align-items: center;
+}
+
+.ChainPage2009__wrapper_center-row {
+  justify-content: center;
+  align-items: center;
+}
+
+.ChainPage2009__description_right {
+  order: 2;
+  text-align: left;
+  width: 90px;
+  margin-left: 7px;
+  align-self: flex-end;
+  padding-bottom: 10px;
+}
+
+.ChainPage2009__description_left {
+  width: 80px;
+  align-self: flex-end;
+  padding-bottom: 25px;
+  margin-right: 8px;
+  text-align: right;
+}
+
+.ChainPage2009__wrapper_top-row {
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 8px;
+}
+
+.ChainPage2009__organ-container_top {
+  padding-right: 52px;
+  padding-left: 52px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ChainPage2009__description_top {
+  margin-bottom: 8px;
+}
+
+.ChainPage2009__image-arrow {
+  position: absolute;
+}
+
+.ChainPage2009__image-arrow_first {
+  top: 30%;
+  left: 33%;
+}
+
+.ChainPage2009__image-arrow_second {
+  top: 30%;
+  left: 49.5%;
+}
+
+.ChainPage2009__image-arrow_third {
+  top: 30%;
+  right: 33%;
+}
+
+.ChainPage2009__image-arrow_fourth {
+  top: 51%;
+  left: 20%;
+}
+
+.ChainPage2009__image-arrow_fifth {
+  top: 51%;
+  right: 20%;
+}
+
+.ChainPage2009__image-arrow_sixth {
+  top: 65.5%;
+  left: 33%;
+}
+
+.ChainPage2009__image-arrow_seventh {
+  top: 65.5%;
+  left: 49.5%;
+}
+
+.ChainPage2009__image-arrow_eighth {
+  top: 65.5%;
+  right: 33%;
 }

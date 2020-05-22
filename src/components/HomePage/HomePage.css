@@ -15,8 +15,196 @@
   text-align: start;
   color: #0d319c;
   padding-top: 13.5%;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
   margin-left: 8%;
   width: 80%;
+}
+
+@keyframes animate-circle {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(.5);
+  }
+}
+
+.HomePage__animation {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  background: radial-gradient(rgba(221, 145, 71, .8), rgba(197, 86, 85, .8));
+}
+
+.HomePage__animation_first {
+  top: 23.7%;
+  left: 27.6%;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.HomePage__animation_second {
+  top: 36.5%;
+  left: 47.4%;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
+
+.HomePage__animation_third {
+  top: 33%;
+  left: 80.7%;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
+.HomePage__animation_fourth {
+  top: .5%;
+  left: 56.5%;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.HomePage__animation::before {
+  content: '';
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  border: 1px solid #c85d53;
+}
+
+.HomePage__animation::after {
+  content: '';
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  animation: animate-circle 1.2s infinite linear;
+  background: rgba(200, 93, 83, .4);
+  border: 1px solid #c85d53;
+}
+
+.HomePage__animation_second::before, .HomePage__animation_third::before {
+  width: 17px;
+  height: 17px;
+  border-radius: 8.5px;
+  top: calc(50% - 8.5px);
+  left: calc(50% - 8.5px);
+}
+
+.HomePage__animation_second::after, .HomePage__animation_third::after {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  top: calc(50% - 6px);
+  left: calc(50% - 6px);
+}
+
+.HomePage__animation_first::before {
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  top: calc(50% - 13px);
+  left: calc(50% - 13px);
+}
+
+.HomePage__animation_first::after {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+}
+
+.HomePage__animation_fourth::before {
+  width: 52px;
+  height: 52px;
+  border-radius: 26px;
+  top: calc(50% - 26px);
+  left: calc(50% - 26px);
+}
+
+.HomePage__animation_fourth::after {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+}
+
+.HomePage__animation-circle {
+  display: block;
+  position: relative;
+  border: 1px solid #c85d53;
+  background: rgba(200, 93, 83, .4);
+  border-radius: 50%;
+  color: #0d319c;
+  font-style: normal;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.HomePage__animation-circle_fourth {
+  width: 38px;
+  height: 38px;
+  top: -10px;
+  left: -10px;
+}
+
+.HomePage__animation-circle_second, .HomePage__animation-circle_third {
+  width: 10px;
+  height: 10px;
+  top: -3px;
+  left: -3px;
+}
+
+.HomePage__animation-circle_first {
+  width: 16px;
+  height: 16px;
+  top: -4px;
+  left: -4px;
+}
+
+
+.HomePage__animation-circle_first::after {
+  position: absolute;
+  left: -400%;
+  top: -200%;
+  width: 200px;
+  content: 'Гипогликемия';
+}
+
+.HomePage__animation-circle_second::after {
+  position: absolute;
+  left: -1150%;
+  top: -320%;
+  width: 200px;
+  content: 'Осложнения СД';
+}
+
+.HomePage__animation-circle_third::after {
+  position: absolute;
+  left: -360%;
+  top: -320%;
+  width: 200px;
+  content: 'СС риски';
+}
+
+.HomePage__animation-circle_fourth::after {
+  position: absolute;
+  left: 140%;
+  top: 20%;
+  width: 200px;
+  content: 'Цель по HbA1c';
+}
+
+.HomePage__lithning {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  transform: translateY(440px);
+  border-radius: 100%;
+  background: #f78b20;
 }

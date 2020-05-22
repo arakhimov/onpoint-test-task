@@ -2,7 +2,30 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: 5%;
-  top: 50%;
+  right: 2.5%;
+  top: 35%;
   z-index: 2;
+}
+
+.Pagination__input {
+  position: relative;
+  margin-bottom: 10px;
+  visibility: hidden;
+}
+
+.Pagination__label {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.Pagination__input_first:checked ~ .Pagination__label_first,
+.Pagination__input_second:checked ~ .Pagination__label_second,
+.Pagination__input_third:checked ~ .Pagination__label_third {
+  background: orange;
 }

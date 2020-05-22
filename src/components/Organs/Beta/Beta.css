@@ -1,0 +1,12 @@
+.Beta {
+  border-radius: 50%;
+  background: #363d5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Beta__image {
+  object-fit: contain;
+}
+

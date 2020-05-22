@@ -11,6 +11,7 @@ export class ChainPage extends Component {
     startY: 0,
     finishY: 0,
     moveX: 0,
+    mov: 0
   } 
 
   handleDragStart = (event) => {
@@ -26,8 +27,17 @@ export class ChainPage extends Component {
   }
 
   handleChange = (moveValue) => {
-    console.log(moveValue);
-    this.setState((state) => ({moveX: state.moveX - moveValue * 10 }));
+    this.setState((state) => ({moveX: state.moveX - moveValue }), () => {
+      if (this.state.moveX <= 8) {
+        this.setState({mov: '0px'});
+      }
+      if (this.state.moveX > 8 && this.state.moveX < 20) {
+        this.setState({mov: '1024px'});
+      }
+      if (this.state.moveX >= 20) {
+        this.setState({mov: '2048px'});
+      }
+    });
   }
 
   render(){
@@ -36,7 +46,7 @@ export class ChainPage extends Component {
         <PaginationRange  handleChange = { this.handleChange } />
         <div 
           className="ChainPage__slider" 
-          style = {{ transform: `translateX(-${this.state.moveX}%)` }} 
+          style = {{ transform: `translateX(${this.state.mov})` }} 
           draggable="true" 
           onDragStart = { this.handleDragStart } 
           onDragEnd = { this.handleDragEnd }

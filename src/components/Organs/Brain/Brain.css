@@ -1,0 +1,11 @@
+.Brain {
+  border-radius: 50%;
+  background: #363d5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Brain__image {
+  object-fit: contain;
+}

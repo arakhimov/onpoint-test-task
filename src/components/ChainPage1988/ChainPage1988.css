@@ -1,5 +1,91 @@
 .ChainPage1988 {
   width: 1024px;
   height: 100%;
-  background: red;
+}
+
+.ChainPage1988__header {
+  font-size: 1.875rem;
+  color: #fff;
+  font-weight: 400;
+  margin: 0;
+  margin-left: 9%;
+  padding-top: 10%;
+  width: 50%;
+}
+
+.ChainPage1988__chains {
+  padding-top: 5%;
+  width: 577px;
+  height: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 1.25rem;
+  position: relative;
+}
+.ChainPage1988__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.ChainPage1988__text {
+  width: 248px;
+  height: 92px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: inherit;
+}
+
+.ChainPage1988__description {
+  text-align: center;
+}
+
+.ChainPage1988__organ-container {
+  width: 96px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ChainPage1988__description-count {
+  font-size: 2.25rem;
+}
+
+.ChainPage1988__image-arrow {
+  position: absolute;
+}
+
+.ChainPage1988__image-arrow_first {
+  bottom: 15%;
+  left: 16%;
+}
+
+.ChainPage1988__image-arrow_second {
+  bottom: 15%;
+  right: 16%;
+}
+
+.ChainPage1988__image-arrow_third {
+  bottom: 26%;
+  left: 49.5%;
+}
+
+.ChainPage1988__image-arrow_fourth {
+  bottom: 10%;
+  left: 17%;
+}
+
+.ChainPage1988__image-arrow_fifth {
+  bottom: 10%;
+  right: 16.5%;
 }

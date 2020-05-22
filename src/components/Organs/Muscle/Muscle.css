@@ -1,0 +1,13 @@
+.Muscle {
+  border-radius: 50%;
+  background: #363d5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Muscle__image {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}

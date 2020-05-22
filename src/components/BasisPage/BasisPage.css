@@ -21,3 +21,27 @@
   margin-right: auto;
   width: 50%;
 }
+
+.BasisPage__image {
+  position: absolute;
+}
+
+.BasisPage__image_first {
+  top: 21%;
+  left: 8%;
+}
+
+.BasisPage__image_second {
+  top: 57%;
+  left: 22%;
+}
+
+.BasisPage__image_third {
+  top: 76%;
+  left: 70%;
+}
+
+.BasisPage__image_fourth {
+  top: 7%;
+  right: 0;
+}

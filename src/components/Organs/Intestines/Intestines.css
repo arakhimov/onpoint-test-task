@@ -1,0 +1,11 @@
+.Intestines {
+  border-radius: 50%;
+  background: #363d5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Intestines__image {
+  object-fit: contain;
+}

@@ -1,6 +1,39 @@
 .PaginationRange {
   position: absolute;
-  bottom: 10%;
-  left: 16%;
   z-index: 2;
+  bottom: 3%;
+  left: calc(50% - 287px);
+}
+
+.PaginationRange__input {
+  -webkit-appearance: none;
+  width: 584px;
+  background: transparent;
+  outline: none;
+}
+
+.PaginationRange__input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 54px;
+  width: 42px;
+  border-radius: 3px;
+  background: url('../../images/cursor.png');
+  margin-top: -15px;
+}
+
+.PaginationRange__input::-webkit-slider-runnable-track {
+  height: 12px;
+  background: #435063;
+}
+
+
+.PaginationRange__date-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PaginationRange__date {
+  color: #fff;
+  padding-top: 4%;
+  font-size: 1.25rem;
 }

@@ -12,9 +12,15 @@ export class PaginationRange extends Component {
   }
 
   render() {
-    // console.log(this.state.year);
     return(
-      <input type="range" min={ 1988 } max={ 2016 } value = { this.state.year } onChange = { this.handleOnChange } className="PaginationRange" />
+      <div className="PaginationRange">
+        <input type="range" min={ 1988 } max={ 2016 } value = { this.state.year } onChange = { this.handleOnChange } className="PaginationRange__input" />
+        <div className="PaginationRange__date-wrapper">
+          <span className="PaginationRange__date">1988</span>
+          <span className="PaginationRange__date">2009</span>
+          <span className="PaginationRange__date">2016</span>
+        </div>
+      </div>
     )
   }
 }
