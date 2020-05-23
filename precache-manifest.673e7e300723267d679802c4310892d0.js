@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d893e20f37737ecf4a31a504c4675ad",
+    "revision": "cbed3450c155587bd18ab87bebd9a500",
     "url": "/onpoint-test-task/index.html"
   },
   {
-    "revision": "76e22c66cdb674053115",
+    "revision": "b3982051c286993459f8",
     "url": "/onpoint-test-task/static/css/main.5e0941c3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/onpoint-test-task/static/js/2.06ff09d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "76e22c66cdb674053115",
-    "url": "/onpoint-test-task/static/js/main.079bd2a5.chunk.js"
+    "revision": "b3982051c286993459f8",
+    "url": "/onpoint-test-task/static/js/main.7be4fdfa.chunk.js"
   },
   {
     "revision": "9a78cb3b420d53de4dd2",

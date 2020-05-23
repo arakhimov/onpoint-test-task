@@ -21,7 +21,7 @@ export class ChainPage extends Component {
   handleDragEnd = (event) => {
     this.setState({ finishY: event.pageY}, () => {
       if (this.state.finishY - this.state.startY > 50) {
-        this.props.history.push('/basis');
+        this.props.history.push('/onpoint-test-task/basis');
       }
     });
   }

@@ -5,7 +5,7 @@ import  arrow  from '../../images/home_1.png';
 
 export const ButtonDown = ( { history } ) => {
 
-  const nextPagePath = () => history?.location.pathname === '/basis' ? '/chain' : '/basis';
+  const nextPagePath = () => history?.location.pathname === '/onpoint-test-task/basis' ? '/onpoint-test-task/chain' : '/onpoint-test-task/basis';
 
   return (
     <div className="ButtonDown">

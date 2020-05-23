@@ -16,7 +16,7 @@ export class HomePage extends Component {
   handleDragEnd = (event) => {
     this.setState({ finishY: event.pageY}, () => {
       if (this.state.startY - this.state.finishY > 50) {
-        this.props.history.push('/basis');
+        this.props.history.push('/onpoint-test-task/basis');
       }
     });
   }
