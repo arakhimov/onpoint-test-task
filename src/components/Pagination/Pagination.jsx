@@ -14,9 +14,9 @@ export class Pagination extends Component {
         id="first" 
         type="radio" 
         name="point" 
-        value="" 
+        value="home" 
         className="Pagination__input Pagination__input_first" 
-        checked = { this.props.history.location.pathname === '/' } 
+        checked = { this.props.history.location.pathname === '/home' } 
         onChange = {this.handleChange} 
       />
       <input 

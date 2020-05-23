@@ -18,9 +18,10 @@ export class BasisPage extends Component {
   }
 
   handleDragEnd = (event) => {
+    // при смещении более чем на 50 единиц с нажатой левой клавишей мыши - переход на другую страницу
     this.setState({ finishY: event.pageY}, () => {
       if (this.state.finishY - this.state.startY > 50) {
-        this.props.history.push('/');
+        this.props.history.push('/home');
       }
       if (this.state.startY - this.state.finishY > 50) {
         this.props.history.push('/chain');
