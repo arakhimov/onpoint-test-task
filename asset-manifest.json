@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/onpoint-test-task/static/css/main.5e0941c3.chunk.css",
+    "main.js": "/onpoint-test-task/static/js/main.17614b54.chunk.js",
+    "main.js.map": "/onpoint-test-task/static/js/main.17614b54.chunk.js.map",
+    "runtime-main.js": "/onpoint-test-task/static/js/runtime-main.d42ccf6d.js",
+    "runtime-main.js.map": "/onpoint-test-task/static/js/runtime-main.d42ccf6d.js.map",
+    "static/js/2.06ff09d4.chunk.js": "/onpoint-test-task/static/js/2.06ff09d4.chunk.js",
+    "static/js/2.06ff09d4.chunk.js.map": "/onpoint-test-task/static/js/2.06ff09d4.chunk.js.map",
+    "index.html": "/onpoint-test-task/index.html",
+    "precache-manifest.3fe013342104e052a2138cb482a28d16.js": "/onpoint-test-task/precache-manifest.3fe013342104e052a2138cb482a28d16.js",
+    "service-worker.js": "/onpoint-test-task/service-worker.js",
+    "static/css/main.5e0941c3.chunk.css.map": "/onpoint-test-task/static/css/main.5e0941c3.chunk.css.map",
+    "static/js/2.06ff09d4.chunk.js.LICENSE.txt": "/onpoint-test-task/static/js/2.06ff09d4.chunk.js.LICENSE.txt",
+    "static/media/BasisPage.css": "/onpoint-test-task/static/media/BasisPage_background.63faa1e2.png",
+    "static/media/ChainPage.css": "/onpoint-test-task/static/media/ChainPage_background.300734f0.png",
+    "static/media/Root.css": "/onpoint-test-task/static/media/Lato-Regular.2d36b1a9.ttf",
+    "static/media/HomePage.css": "/onpoint-test-task/static/media/HomePage_background.dbb43b5d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d42ccf6d.js",
+    "static/js/2.06ff09d4.chunk.js",
+    "static/css/main.5e0941c3.chunk.css",
+    "static/js/main.17614b54.chunk.js"
+  ]
+}
