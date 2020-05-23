@@ -13,7 +13,7 @@ export class Root extends Component {
       <div className="Root">
         <Pagination {...this.props} />
         <Switch>
-          <Route exact path='/' render = { () => <HomePage {...this.props} /> } />
+          <Route path='/' render = { () => <HomePage {...this.props} /> } />
           <Route path='/basis' render = { () =>  <BasisPage {...this.props} /> } />
           <Route path='/chain' render = { () =>  <ChainPage {...this.props} /> } />
         </Switch>
