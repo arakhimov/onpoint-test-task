@@ -16,7 +16,7 @@ export class Pagination extends Component {
         name="point" 
         value="home" 
         className="Pagination__input Pagination__input_first" 
-        checked = { this.props.history.location.pathname === '/home' } 
+        checked = { this.props.history.location.pathname === '/onpoint-test-task/home' } 
         onChange = {this.handleChange} 
       />
       <input 
@@ -25,7 +25,7 @@ export class Pagination extends Component {
         name="point"
         value="basis" 
         className="Pagination__input Pagination__input_second" 
-        checked = { this.props.history.location.pathname === '/basis' } 
+        checked = { this.props.history.location.pathname === '/onpoint-test-task/basis' } 
         onChange = {this.handleChange} 
       />
       <input 
@@ -34,7 +34,7 @@ export class Pagination extends Component {
         name="point" 
         value="chain" 
         className="Pagination__input Pagination__input_third" 
-        checked = { this.props.history.location.pathname === '/chain' } 
+        checked = { this.props.history.location.pathname === '/onpoint-test-task/chain' } 
         onChange = {this.handleChange} 
       />
       <label htmlFor="first" className="Pagination__label Pagination__label_first" />

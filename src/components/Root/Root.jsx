@@ -8,7 +8,7 @@ import { Route, Switch } from 'react-router-dom';
 
 export class Root extends Component {
 
-  changeStartUrl = () => this.props.history.push('/home');
+  changeStartUrl = () => this.props.history.push('/onpoint-test-task/home');
   
   render() {
     // при первой загрузке назначаем стартовой странице url home
@@ -19,9 +19,9 @@ export class Root extends Component {
       <div className="Root">
         <Pagination {...this.props} />
         <Switch>
-          <Route path='/home' render = { () => <HomePage {...this.props} /> } />
-          <Route path='/basis' render = { () =>  <BasisPage {...this.props} /> } />
-          <Route path='/chain' render = { () =>  <ChainPage {...this.props} /> } />
+          <Route path='/onpoint-test-task/home' render = { () => <HomePage {...this.props} /> } />
+          <Route path='/onpoint-test-task/basis' render = { () =>  <BasisPage {...this.props} /> } />
+          <Route path='/onpoint-test-task/chain' render = { () =>  <ChainPage {...this.props} /> } />
         </Switch>
       </div>
     )

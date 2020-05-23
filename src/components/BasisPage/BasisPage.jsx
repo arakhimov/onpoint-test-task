@@ -21,10 +21,10 @@ export class BasisPage extends Component {
     // при смещении более чем на 50 единиц с нажатой левой клавишей мыши - переход на другую страницу
     this.setState({ finishY: event.pageY}, () => {
       if (this.state.finishY - this.state.startY > 50) {
-        this.props.history.push('/home');
+        this.props.history.push('/onpoint-test-task/home');
       }
       if (this.state.startY - this.state.finishY > 50) {
-        this.props.history.push('/chain');
+        this.props.history.push('/onpoint-test-task/chain');
       }
     });
   }

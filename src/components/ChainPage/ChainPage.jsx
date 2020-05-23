@@ -21,12 +21,13 @@ export class ChainPage extends Component {
   handleDragEnd = (event) => {
     this.setState({ finishY: event.pageY}, () => {
       if (this.state.finishY - this.state.startY > 50) {
-        this.props.history.push('/basis');
+        this.props.history.push('/onpoint-test-task/basis');
       }
     });
   }
 
   handleChange = (moveValue) => {
+    // при смещении более чем на 50 единиц с нажатой левой клавишей мыши - переход на другую страницу
     this.setState((state) => ({moveX: state.moveX - moveValue }), () => {
       if (this.state.moveX <= 8) {
         this.setState({mov: '0px'});

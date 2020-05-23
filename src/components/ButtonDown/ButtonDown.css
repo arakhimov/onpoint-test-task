@@ -18,6 +18,7 @@
   text-decoration: none;
   color: #fff;
   font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+  cursor: url('../../images/cursorRoot.png'), auto;
 }
 
 .ButtonDown__image {

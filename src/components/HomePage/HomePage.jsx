@@ -14,9 +14,10 @@ export class HomePage extends Component {
   }
 
   handleDragEnd = (event) => {
+    // при смещении более чем на 50 единиц с нажатой левой клавишей мыши - переход на другую страницу
     this.setState({ finishY: event.pageY}, () => {
       if (this.state.startY - this.state.finishY > 50) {
-        this.props.history.push('/basis');
+        this.props.history.push('/onpoint-test-task/basis');
       }
     });
   }
